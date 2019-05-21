@@ -9,7 +9,7 @@ report_file = 580126546568675354  # int. Вставить id канала реп
 
 logfile = 580126398384177152 # int. Вставить id канала логов, обязательно
 botid = 579976940996395028 # int. Вставить id бота, обязательно
-token = "NTc5OTc2OTQwOTk2Mzk1MDI4.XOQ0hw.dTdmIgt7WK1szsn0ntuptj1qloA"  # Тут надо вставить свой токен, его можно узнать на https://discordapp.com/developers/applications/
+token = os.environ.get('BOT_TOKEN')  # Тут надо вставить свой токен, его можно узнать на https://discordapp.com/developers/applications/
 
 msg_cnt = """Приветствуем вас на сервере!!!\nДомик Котика, это место куда вы попали. Домик Котика - Кошачий дом, где каждый может найти себе кошку или же кота""" # Сообщение которое будет писатся при заходе на сервер в лс
 
